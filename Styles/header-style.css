@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-1: #2B2D42;
+    --color-2: #DF0C2E;
+}
+html{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header-principal{
+    width: 100%;
+}
+.container-header-banner{
+    width: 100%;
+    height: 60vh;
+    background-color: #2B2D42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom: 40px solid var(--color-2);
+}
+.container-header-image{
+    width: 30rem;
+}
+.container-header-image img{
+    width: 80%;
+}
+/* css del texto contacts */
+.container-header-contacts{
+    width: 450px;
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.button-header-info{
+    background-color: white;
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+}
+.button-header-info:hover{
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 5px 0px black;
+}
+.button-header-info i{
+    padding-left: 5px;
+}
+.fa-facebook{
+    color: #0078f7;
+}
+.fa-whatsapp{
+    color: #43c553;
+}
+
+/* css del texto header */
+.container-header-text{
+    color: white;
+    font-size: 1.8em;
+}
