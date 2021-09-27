@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Folletos y Libros</title>
     <link rel="stylesheet" href="Styles/header-style.css">
+    <link rel="stylesheet" href="Styles/main-style.css">
     <link rel="stylesheet" href="Styles/footer-style.css">
+    <link rel="stylesheet" href="Styles/products-slider.css">
     <script src="https://kit.fontawesome.com/71a4b48035.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,21 +30,38 @@
     </header>
     <main>
         <div class="container-main-sections">
-            <section class="section-random-books">
-
+            <section class="section-books">
+                <button class="button-anterior">
+                    <<
+                </button>
+                <div class="products-section">
+                    <div class="container-book">
+                        <img loading="lazy" src="Images/4ccf15c9d7dafad918ea33d2d73ed9e3-product.jpg" alt="Product imagen">
+                        <div class="book-datails">
+                            <h3 >Productos Notables</h3>
+                            <p class="price-book">Precio: <p class="price-book-number">S/ 12.00</p></p>
+                            <p class="curse-book">Curso: <span class="curse-book-text">Álgebra</span></p>
+                            <p class="code-book">Código: <span class="code-book-number">123</span></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="button-siguiente">
+                    >>
+                </button>
             </section>
+            
             <section class="section-books">
                 <div class="name-section">
                     <h2>ÁLGEBRA</h2>
                 </div>
                 <div class="products-section">
                     <div class="container-book">
-                        <img src="" alt="Product imagen">
+                        <img loading="lazy" src="Images/4ccf15c9d7dafad918ea33d2d73ed9e3-product.jpg" alt="Product imagen">
                         <div class="book-datails">
-                            <h3>Productos Notables</h3>
-                            <p>Precio: <span>12</span></p>
-                            <p>Curso: <span>Álgebra</span></p>
-                            <p>Codigo: <span>123</span></p>
+                            <h3 >Productos Notables</h3>
+                            <p class="price-book">Precio: <p class="price-book-number">S/ 12.00</p></p>
+                            <p class="curse-book">Curso: <span class="curse-book-text">Álgebra</span></p>
+                            <p class="code-book">Código: <span class="code-book-number">123</span></p>
                         </div>
                     </div>
                 </div>
@@ -58,5 +77,7 @@
             </div>
         </div>
     </footer>
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    
 </body>
 </html>

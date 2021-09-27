@@ -27,7 +27,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    border-bottom: 40px solid var(--color-2);
+    border-bottom: 2.5rem solid var(--color-2);
 }
 .container-header-image{
     width: 30rem;
@@ -37,10 +37,10 @@ body{
 }
 /* css del texto contacts */
 .container-header-contacts{
-    width: 450px;
+    width: 28.125rem;
     position: absolute;
-    bottom: 50px;
-    right: 40px;
+    bottom: 3.125rem;
+    right: 2.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -48,7 +48,7 @@ body{
 }
 .button-header-info{
     background-color: white;
-    padding: 10px 12px;
+    padding: 0.625rem 0.75rem;
     border: none;
     cursor: pointer;
     font-size: 1em;
@@ -61,7 +61,7 @@ body{
     box-shadow: 4px 4px 5px 0px black;
 }
 .button-header-info i{
-    padding-left: 5px;
+    padding-left: 0.3125em;
 }
 .fa-facebook{
     color: #0078f7;

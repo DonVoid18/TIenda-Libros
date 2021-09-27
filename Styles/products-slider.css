@@ -1,0 +1,10 @@
+.button-anterior{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.button-siguiente{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
