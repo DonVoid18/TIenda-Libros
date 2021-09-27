@@ -1,0 +1,30 @@
+.footer-principal{
+    background-color: #2B2D42;
+    color: white;
+}
+
+.container-footer{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.container-footer-datails{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.active-link{
+    text-decoration: none;
+    color: white;
+}
+.active-link:hover{
+    text-decoration: underline;
+}
+
+.active-link:active{
+    color: red;
+}
+.active-link:visited{
+    color: yellow;
+}
