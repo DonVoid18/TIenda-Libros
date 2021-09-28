@@ -9,7 +9,7 @@ main{
     justify-content: center;
 }
 .section-books{
-    width: 75rem;
+    width: 80vw;
 	margin: 0.625em 0;
     position: relative;
 }
@@ -86,7 +86,7 @@ main{
 
 /* seccion de productos random */
 .section-random-products{
-    width: 75rem;
+    width: 80vw;
     overflow-x: scroll;
     margin: 0.625rem 0;
     display: flex;
