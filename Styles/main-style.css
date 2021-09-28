@@ -9,15 +9,15 @@ main{
     justify-content: center;
 }
 .section-books{
-    width: 1200px;
-    margin: 10px 0;
+    width: 75rem;
+	margin: 0.625em 0;
     position: relative;
 }
 .name-section{
-    padding: 20px;
+    padding: 0.8em;
     text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
     color: white;
     background-color: var(--color-2);
 }
@@ -27,46 +27,46 @@ main{
     position: relative;
 }
 .container-book{
-    width: 180px;
-    height: 300px;
+    width: 11.25rem;
+    height: 18.75rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #EDF2F4;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 10px;
+    padding: 0.625rem;
+    border-radius: 0.625rem;
     position: relative;
+    margin: 0.625rem;
 }
 
 .container-book:hover{
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0rem 0rem 0.3125rem 0rem rgba(0,0,0,0.75);
     cursor: pointer;
 }
 .container-book img{
     width: 100%;
 }
 .book-datails{
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 
 /* css del precio del producto */
 .price-book{
-    padding: 2px 0;
+    padding: 0.125rem 0;
 }
 .price-book-number{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: red;
     text-align: right;
 }
 /* css del curso del libro */
 .curse-book{
-    font-size: 10px;
+    font-size: 0.650rem;
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 0.625rem;
+    left: 0.625rem;
     color: #7d7c83;
 }
 .curse-book-text{
@@ -74,15 +74,34 @@ main{
 }
 /* css del codigo del producto */
 .code-book{
-    font-size: 10px;
+    font-size: 0.650rem;
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 0.625rem;
+    right: 0.625rem;
     color: #7d7c83;
 }
 .code-book-number{
     font-weight: 600;
 }
 
-
-/* css de contenedor slider productos */
+/* seccion de productos random */
+.section-random-products{
+    width: 75rem;
+    overflow-x: scroll;
+    margin: 0.625rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-random-products::-webkit-scrollbar{
+    width: 0.75rem;
+    height: 0.75rem;
+}
+.section-random-products::-webkit-scrollbar-track{
+    background-color: #EDF2F4;
+    border-radius: 0.625rem;
+}
+.section-random-products::-webkit-scrollbar-thumb{
+    border-radius: 0.625rem;
+    background-color: #2B2D42;
+}
